@@ -1,0 +1,36 @@
+{
+    "name": "karen6630/omnipay-ameria",
+    "type": "library",
+    "description": "Ameria gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "arca",
+        "ameria",
+        "purchase"
+    ],
+    "homepage": "https://github.com/karen6630/omnipay-ameria",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karen",
+            "email": "karen6630@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Ameria\\": "src/"
+        }
+    },
+    "require": {
+        "omnipay/common": "^3",
+        "ext-json": "*",
+        "php": "8.*"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3"
+    }
+}
